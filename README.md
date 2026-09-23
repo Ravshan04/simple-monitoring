@@ -1,6 +1,6 @@
 # Simple Monitoring
 
-Project URL: https://roadmap.sh/projects/simple-monitoring
+Project URL: https://roadmap.sh/projects/simple-monitoring-dashboard
 
 This project installs Netdata on a Linux system, configures a basic monitoring
 dashboard, adds a custom chart with StatsD, and creates a CPU alert for local
@@ -175,6 +175,7 @@ curl "http://localhost:19999/api/v1/charts" | grep simple_monitoring
 
 ## References
 
+- roadmap.sh Simple Monitoring Dashboard: https://roadmap.sh/projects/simple-monitoring-dashboard
 - Netdata Linux installation: https://learn.netdata.cloud/docs/netdata-agent/installation/linux
 - Netdata alert configuration: https://learn.netdata.cloud/docs/alerts-&-notifications/alert-configuration-reference
 - Netdata StatsD collector: https://learn.netdata.cloud/docs/collecting-metrics/statsd
